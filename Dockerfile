@@ -7,4 +7,5 @@ COPY . /app
 
 RUN pip install Flask
 
+EXPOSE 8000
 CMD ["python", "web.py"]
